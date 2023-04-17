@@ -1,0 +1,14 @@
+.half-circle-progress {
+    max-width: 184px;
+    width: 100%;
+    height: 95px;
+}
+
+.half-circle-progress-text {
+    position: relative;
+    top: -58px;
+    font-weight: 300;
+    font-size: 19px;
+    color: #FFFFFF;
+    text-shadow: -1.51px 2.26px 0.75px rgba(0, 0, 0, 0.1);
+}

@@ -48,7 +48,7 @@ function Weather() {
         const weatherData = await weatherResponse.json();
 
         const weatherOneDayResponse = await fetch(
-          `http://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationData[0].Key}?apikey=${API_KEY}&details=true&metric=true`
+          `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationData[0].Key}?apikey=${API_KEY}&details=true&metric=true`
         );
         const weatherOneDayData = await weatherOneDayResponse.json();
 
